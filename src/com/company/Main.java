@@ -11,9 +11,9 @@ public class Main {
         List<Integer> positiveList = new ArrayList<>();
         for (Integer num : intList
         ) {
-                if (num>0) {
-                    positiveList.add(num);
-                }
+            if (num > 0) {
+                positiveList.add(num);
+            }
         }
         return positiveList;
     }
@@ -22,9 +22,9 @@ public class Main {
         List<Integer> positiveList = new ArrayList<>();
         for (Integer num : intList
         ) {
-                if (num%2==0) {
-                    positiveList.add(num);
-                }
+            if (num % 2 == 0) {
+                positiveList.add(num);
+            }
         }
         return positiveList;
     }
